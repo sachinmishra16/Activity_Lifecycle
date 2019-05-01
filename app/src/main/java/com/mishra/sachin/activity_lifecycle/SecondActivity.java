@@ -11,7 +11,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Toast.makeText(this, "second oncreate", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "2 oncreate", Toast.LENGTH_SHORT).show();
     }
 
 
@@ -25,7 +25,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onPostResume() {
         super.onPostResume();
 
-        Toast.makeText(this, "2 post resume", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "2 postresume", Toast.LENGTH_SHORT).show();
     }
 
     @Override
