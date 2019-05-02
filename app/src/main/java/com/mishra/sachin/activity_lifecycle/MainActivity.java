@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Toast.makeText(this, "1 oncreate() ", Toast.LENGTH_SHORT).show();
+        //when press on back button ondestroy() will execute
     }
 
 
