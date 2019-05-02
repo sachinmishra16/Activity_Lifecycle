@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(this, "oncreate ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "1 oncreate() ", Toast.LENGTH_SHORT).show();
     }
 
 
@@ -33,20 +33,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart()
     {
         super.onStart();
-        Toast.makeText(this, "on start", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "1 on start()", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onPostResume() {
         super.onPostResume();
 
-        Toast.makeText(this, "post resume", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "1 post resume()", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Toast.makeText(this, "restart", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "1 restart()", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onPause();
 
-        Toast.makeText(this, "pause ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "1 pause() ", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -62,13 +62,13 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onStop();
 
-        Toast.makeText(this, "onstop", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "1 onstop()", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
 
-        Toast.makeText(this, "on destroy", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "1 on destroy()", Toast.LENGTH_SHORT).show();
     }
 }
